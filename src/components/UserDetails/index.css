@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home,
+.user-detail {
+  padding: 20px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+button {
+  margin: 10px;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: end;
+}
+.whole-containers {
+  height: 100vh;
+}
+.user-list {
+  margin: 10%;
+}
+.Err-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  text-align: center;
+}
