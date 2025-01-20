@@ -1,64 +1,61 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.home,
 .user-detail {
   padding: 20px;
-}
-
-input {
-  margin-right: 10px;
-  padding: 5px;
-}
-
-button {
-  padding: 5px 10px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  margin: 10px 0;
-}
-
-a {
-  text-decoration: none;
-  color: blue;
-}
-
-.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
-}
-.light-mode {
-  background-color: #ffffff;
-  color: #000000;
-}
-button {
-  margin: 10px;
-}
-
-.toggle-container {
-  display: flex;
-  justify-content: end;
-}
-.whole-containers {
-  height: 100vh;
-}
-.user-list {
-  margin: 10%;
-}
-.Err-container {
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  background-size: cover;
+  max-height: 1020px;
+  min-height: 90vh;
+}
+
+.user-detail h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.user-detail p {
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.user-detail a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #1583f8;
+  font-weight: bold;
+}
+
+.user-detail a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .user-detail {
+    padding: 10px;
+  }
+
+  .user-detail h1 {
+    font-size: 1.5em;
+  }
+
+  .user-detail p {
+    font-size: 0.9em;
+  }
+}
+.progress-container {
+  min-height: 100vh;
+  max-height: 1200px;
   font-size: xx-large;
-  text-align: center;
+  padding-top: 30px;
+}
+
+.user-details {
+  margin: 2px;
+  border: 2px solid currentColor;
+  padding: 30px;
+  border-radius: 10px;
 }

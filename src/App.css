@@ -2,82 +2,40 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-.home,
-.user-detail {
-  padding: 20px;
-}
-
-input {
-  margin-right: 10px;
-  padding: 5px;
-}
-
-button {
-  padding: 5px 10px;
-}
-
-a {
-  text-decoration: none;
-  color: blue;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
   height: 100%;
   width: 100%;
+  max-height: 12000px;
+  max-width: 12000px;
 }
 
-.user-list {
-  margin: 20px;
-  padding: 20px;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  max-width: 600px;
-  margin: auto;
+.app {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
 }
-.user-detail {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  max-width: 600px;
-  margin: auto;
+.app.light {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 20px;
 }
 
-.user-list ul {
-  list-style: none;
-  padding: 0;
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
 }
 
-.user-list li {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 4px;
+.theme-toggle {
+  background-color: transparent;
+  border: 1px solid currentColor;
+  cursor: pointer;
+  color: currentColor;
 }
 
-.user-list li:hover {
-  background-color: #f9f9f9;
-}
-
-@media (max-width: 768px) {
-  .user-list,
-  .user-detail {
-    padding: 10px;
-  }
-
-  .user-list li {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 769px) {
-  .user-list li {
-    font-size: 16px;
-  }
+.theme-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }

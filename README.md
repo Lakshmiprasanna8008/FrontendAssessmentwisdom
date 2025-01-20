@@ -94,8 +94,10 @@ react-user-management-app/
 ├── src/
 │   ├── components/
 │   │   ├── Home.js        # Home page component
-│   │   ├── UserDetails.js  # User details page component
-│   │   ├── UserContext.js # Context API setup
+│   │   ├── UserDetails.js # User details page component
+│   │   ├── NotFound.js    # Not found component
+|   ├── context/
+│   │   ├── UserContext.js # User Context API
 │   ├── App.js             # Main app component
 │   ├── App.css            # Styling
 │   └── index.js           # Entry point
